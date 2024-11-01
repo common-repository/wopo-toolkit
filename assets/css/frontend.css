@@ -1,0 +1,96 @@
+#cmdialog{
+	overflow: visible;
+	display:none;
+}
+
+
+.widget .sidebar-policy .clear .sidebar-top-icon{
+	background:rgb(4,181,145) !important;
+}
+.widget .sidebar-policy .clear:nth-of-type(2n+1) i:before{
+	color: rgb(4,181,145);
+}
+.widget .sidebar-policy .clear {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.widget .sidebar-policy .clear .sidebar-top-icon {
+  height: 30px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+  background-color: red;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 15px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.widget .sidebar-policy .clear .sidebar-top-icon i {
+  color: #fff;
+}
+
+.widget .sidebar-policy .clear p {
+  margin-bottom: 0;
+}
+
+.widget .sidebar-policy .clear p a {
+  font-size: 13px;
+  display: block;
+  line-height: 17px;
+}
+
+.widget .sidebar-policy .clear:nth-of-type(2n+1) i {
+  font-size: 12px;
+  background-color: #fff;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  padding: 4px;
+}
+
+.widget .sidebar-policy .clear.widget_categories ul .cat-item {
+  text-align: right;
+}
+
+.widget .sidebar-policy .clear.widget_categories ul .cat-item a {
+  text-transform: uppercase;
+  font-size: 14px;
+  float: left;
+}
+
+.widget .sidebar-policy .clear.widget_categories ul .cat-item a:before {
+  content: '\f1db';
+  font-family: 'fontawesome';
+  font-size: 8px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.widget .sidebar-policy .clear.widget_search .icon-search {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
